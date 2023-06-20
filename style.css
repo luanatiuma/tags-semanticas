@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(80, 80, 202);
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+}
+caption{
+    caption-side: top;
+    font-size: 35px;
+}
+table{
+    font-size: 20px;
+    width: 60%;
+    height: 50%;
+}
+table tr:nth-child(1){
+    background-color: green;
+}
+td, tr{
+    padding: 15px;
+}
+button{
+    width: 20%;
+    color: red;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+table td:nth-child(6){
+    background-color: red;
+}
